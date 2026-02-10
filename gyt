@@ -1,0 +1,106 @@
+Znaczniki semantyczne HTML5 – grupowanie grafiki
+1. Wprowadzenie:
+Wraz z wprowadzeniem standardu HTML5 pojawiły się nowe znaczniki semantyczne, których zadaniem jest poprawa czytelności kodu oraz lepsze określenie znaczenia poszczególnych elementów strony internetowej. Jednymi z takich znaczników są <figure> oraz <figcaption>, służące do grupowania grafiki wraz z jej opisem.
+2. Cel ćwiczenia:
+Celem ćwiczenia było:
+    • poznanie i zrozumienie roli znaczników semantycznych HTML5,
+    • poprawne zastosowanie znaczników <figure> i <figcaption>,
+    • umieszczenie obrazu w sekcji <header> strony,
+    • zastosowanie podstawowych właściwości CSS w celu poprawy układu elementów,
+    • stworzenie logicznie uporządkowanej galerii obrazów.
+3. Opis znaczników semantycznych:
+3.1 Znacznik <figure>:
+Znacznik <figure> służy do oznaczania elementów graficznych, takich jak obrazy, ilustracje lub diagramy, które są powiązane z treścią dokumentu, ale jednocześnie stanowią samodzielną całość. Element ten może być wykorzystany niezależnie, np. w spisie ilustracji.
+3.2 Znacznik <figcaption>:
+Znacznik <figcaption> zawiera podpis opisujący grafikę. Powinien znajdować się wewnątrz znacznika <figure>, co umożliwia semantyczne powiązanie obrazu z jego opisem.
+4. Przykład zastosowania <figure> i <figcaption>:
+<figure>
+  <img src="obraz.jpg" alt="Zdjęcie miasta Antwerpia" width="220" height="180">
+  <figcaption>Zdjęcie 2. Miasto Antwerpia</figcaption>
+</figure>
+Powyższy kod powoduje wyświetlenie obrazu wraz z podpisem, co zwiększa czytelność strony oraz poprawia jej dostępność.
+ Obraz z podpisem w przeglądarce:
+
+
+
+
+
+
+
+
+
+
+5. Umieszczenie obrazu w sekcji <header>:
+W ramach ćwiczenia przygotowano logo strony internetowej i umieszczono je w sekcji nagłówkowej <header>. W celu uzyskania poprawnego układu zastosowano właściwość CSS float.
+<header>
+  <img src="robot.jpg" alt="Logo HTML5" style="float: left; width: 50px; height: 80px;">
+  <h1>Rewolucja przemysłowa</h1>
+  <h3>Co się kryje za czwartą rewolucją?</h3>
+  <p>Autor: Paweł Nadrożny</p>
+  <nav>NAWIGACJA</nav>
+</header>
+Zastosowanie stylu float: left; pozwoliło na otoczenie obrazu tekstem, co poprawiło estetykę i czytelność nagłówka.
+Nagłówek strony z logo i tekstem:
+
+
+6. Grupowanie obrazów w galerię:
+Obrazy zostały pogrupowane w logiczne sekcje za pomocą znacznika <div class="gallery">. Każda grupa zawiera nagłówek oraz obrazy wraz z opisami.
+<div class="gallery">
+  <h2>Grupa 1</h2>
+  <figure>
+    <img src="obraz1.jpg" alt="Opis obrazu 1">
+    <figcaption>Opis obrazu 1</figcaption>
+  </figure>
+</div>
+Takie rozwiązanie ułatwia dalszą rozbudowę strony oraz jej stylowanie przy użyciu CSS
+Galeria obrazów – grupy:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+7. Wnioski:
+    • Znaczniki semantyczne HTML5 zwiększają czytelność i poprawność struktury dokumentu.
+    • Poprawne użycie <figure> i <figcaption> umożliwia jednoznaczne powiązanie obrazu z jego opisem.
+    • Umieszczanie grafiki w nagłówku wymaga zastosowania stylów CSS w celu zachowania estetycznego układu.
+    • Grupowanie obrazów w sekcjach porządkuje treść strony i ułatwia jej dalszy rozwój.
+8. Podsumowanie:
+Ćwiczenie pozwoliło na praktyczne wykorzystanie znaczników semantycznych HTML5 oraz zrozumienie ich roli w tworzeniu nowoczesnych stron internetowych. Zdobyta wiedza jest istotna przy projektowaniu czytelnych, dostępnych i zgodnych ze standardami stron WWW.
