@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<title>zadanie 3</title>
+<body>
+<h1>Wybierz zwierze</h1>
+<a href="https://pl.wikipedia.org/wiki/Kot_domowy"><img src="kot.jpg" alt="Kot" width="100"> </a>
+<a href="https://pl.wikipedia.org/wiki/Pies_domowy"><img src="pies.jpg" alt="Piesek" width="100"> </a>
+<a href="https://pl.wikipedia.org/wiki/Krowa"><img src="krowa.jpg" alt="Krówka" width="100"> </a>
+<a href="https://pl.wikipedia.org/wiki/Kapibara"><img src="kapibara.jpg" alt="Kapibarka" width="100"> </a>
+<a href="https://pl.wikipedia.org/wiki/Chomik_(rodzaj)"><img src="chomik.jpg" alt="Chomiczek" width="100"> </a>
+</body>
+</html>
