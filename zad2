@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<title>zad 2</title>
+<body>
+<h1>Galeria</h1>
+
+<fieldset>
+<legend>Galeria 1</legend>
+<a href="1b.jpg" target="_blank"><img src="1.jpg" alt="1" width="100"></a>Kurczak mama
+<a href="2b.jpg" target="_blank"><img src="2.jpg" alt="1" width="100"></a>Kogut tata
+<a href="3b.jpg" target="_blank"><img src="3.jpg" alt="1" width="100"></a>Syn najstarszy
+<a href="4b.jpg" target="_blank"><img src="4.jpg" alt="1" width="100"></a>Syn średni
+<a href="5b.jpg" target="_blank"><img src="5.jpg" alt="1" width="100"></a>Córka mała
+</fieldset>
+
+<fieldset>
+<legend>Galeria 2</legend>
+<a href="6b.jpg" target="_blank"><img src="6.jpg" alt="1" width="100"></a>Tata dalmatyńczyk
+<a href="7b.jpg" target="_blank"><img src="7.jpg" alt="1" width="100"></a>Mama dalmatyńczyk
+<a href="8b.jpg" target="_blank"><img src="8.jpg" alt="1" width="100"></a>Córka najstarszy dalmatyńczyk
+<a href="9b.jpg" target="_blank"><img src="9.jpg" alt="1" width="100"></a>Córka średni dalmatyńczyk
+<a href="10b.jpg" target="_blank"><img src="10.jpg" alt="1" width="100"></a>Córka mała dalmatyńczyk
+</fieldset>
+
+<fieldset>
+<legend>Galeria 3</legend>
+<a href="11b.jpg" target="_blank"><img src="11.jpg" alt="1" width="100"></a>Tata byk
+<a href="12b.jpg" target="_blank"><img src="12.jpg" alt="1" width="100"></a>Mama krowa
+<a href="13b.jpg" target="_blank"><img src="13.jpg" alt="1" width="100"></a>Syn najstarszy byk
+<a href="14b.jpg" target="_blank"><img src="14.jpg" alt="1" width="100"></a>Córka średna krowa
+<a href="15b.jpg" target="_blank"><img src="15.jpg" alt="1" width="100"></a>Córka mała krowa
+</fieldset>
+</body>
+</head>
