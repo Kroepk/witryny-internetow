@@ -1,40 +1,89 @@
-<!DOCYPTE html>
-<html>
-<head>
-	<title>Galleria</title>
-	</head>
-	<body>
-	<h1>Galleria obrazów</h1>
-	<h2>Miniaturki</h2>
-	<a href="kurczacek.jpg" target="_blank">
-	<img src ="miniatukakurczaczekkkk.jpg" alt="Miniaturka obrazu"
-	</a>
-	<a href="R.jpg" target="_blank">
-	<img src ="Rm.jpg" alt="Miniaturka obrazu"
-	</a>
-	<a href="R22.jpg" target="_blank">
-	<img src ="r2.jpg" alt="Miniaturka obrazu"
-	</a>
-	<br>
-	<a href="r3.jpg" target="_blank">
-	<img src ="r3m.jpg" alt="Miniaturka obrazu"
-	</a>
-	<a href="R4.jpg" target="_blank">
-	<img src ="R4m.jpg" alt="Miniaturka obrazu"
-	</a>
-	<a href="R5.jpg" target="_blank">
-	<img src ="R5m.jpg" alt="Miniaturka obrazu"
-	</a>
-	<br>
-	<a href="R6.jpg" target="_blank">
-	<img src ="R6m.jpg" alt="Miniaturka obrazu"
-	</a>
-	<a href="R7.jpg" target="_blank">
-	<img src ="R7m.jpg" alt="Miniaturka obrazu"
-	</a>
-	<a href="R8.jpg" target="_blank">
-	<img src ="R8m.jpg" alt="Miniaturka obrazu"
-	</a>
-</body>
-</html>
-	
+<!--Przykład type = "file"-->
+<form enctype="multipart/form-data" action="skrypt.php" method="post">
+<p>Wyślij ten plik
+<input type="file" name="plik" size="30">
+</p>
+</form>
+<form>
+<p>Wykształcenie:</p>
+<p>
+<input type="radio" value="Podstawowe" name="grupa_opcji" checked> Podstawowe<br>
+<input type="radio" value="Średnie" name="grupa_opcji"> Średnie<br>
+<input type="radio" value="Wyższe" name="grupa_opcji"> Wyższe<br>
+</p>
+<p>
+<input type="checkbox" name="opcje">
+Zgadzam się na przetwarzanie moich danych osobowych
+</p>
+<p>
+<input type = "hidden" name = "Data urodzenia" value = "3 marca 1990">
+<input type="submit" value="Wyślij">
+&nbsp; &nbsp; <input type="reset" value="Wyczyść">
+</p>
+</form>
+<form action="skrypt_form.php" method="post">
+	<p>Wybierz kolor z podanej palety:</p>
+	<input type="color" name="kolor" value="#ff0000">
+	<input type="submit" value="Wyślij">
+</form>
+<form action="skrypt_form.php" method="post">
+	<p>Wpisz adres e-mail:</p>
+	<input type="email" name="email">
+	<input type="submit" value="Wyślij">
+</form>
+<form action="skrypt_form.php" method="post">
+<p>Wprowadź liczby z przedziału od 10 do 100:</p>
+<input type="number" name="liczba" min="10" max="100" step="5" value="20">
+<input type="submit" value="Wyślij">
+</form> 
+-<form action="skrypt_form.php" method="post">
+<p>Podaj datę urodzin:</p>
+<input type="date" name="data">
+<input type="submit" value="Wyślij">
+<br>
+<br>
+<button type="submit" name="przycisk" style="font: 12pt Arial; background: red">Przycisk</button>
+<br>
+<br>
+<button type="submit" name="obrazek"> <img src="obraz.png" alt="formularz">
+</button>
+</form>
+<form action="mailto:mauka@gmail.com" method="post">
+</h2>Formularz kontaktowy</h2>
+<p>Fodaj swoje nazwisko i imie</p>
+<input name="adres" value="" size="30">
+<h3>Wykształcenie: </h3>
+<label>
+<input type="radio" value="Podstawowe" name="grupa_opcji" checked>
+Podstawowe
+</label><br>
+<label>
+<input type="radio" value="Średnie" name="grupa_opcji">
+Średnie
+</label><br>
+<label>
+<input type="radio" value="Wyżaze" name="grupa_opcji">
+Wyższe
+</label><br>
+<label>
+<input type="checkbox" name="opcje">
+Zgadzam się na przetwarzanie moich danych osobowych
+</label>
+<input type="submit" value="Wyślij">&nbsp; &nbsp;
+<input type="reset" value="Wyczyść">
+</form>
+<form action="http://localhost/skrypt_form.php" method="post">
+<h3>Formularz wyboru języka:</h3>
+<select name="jezyki" size="5" multiple>
+<option>Jezyk angielski</option>
+<option value="Język niemiecki" selected="selected">
+Jezyk niemiecki
+</option>
+<option value="Język francuski">Język francuski</option>
+<option value="Jezyk włoski" selected="selected">
+Język włoski
+</option>
+<option value="Jezyk rosyjski">Język rosyjski</option>
+<option value="Jezyk hiszpański">Jezyk hiszpański</option>
+</select>
+</form>
