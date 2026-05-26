@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Zadanie 2</title>
+</head>
+<body>
+<form action="ankieta.php" method="post">
+<h3>Dane osobowe</h3>
+<p>Podaj imię:
+<input type="text" name="imie"></p>
+<p>Podaj nazwisko:
+<input type="text" name="nazwisko"></p>
+<p>Podaj e-mail:
+<input type="email" name="mail"></p>
+<h3>Zainteresowania</h3>
+<p>Wybierz ulubiony kolor:
+<input type="color" name="kolor"></p>
+<p>Wybierz hobby:</p>
+<select name="hobby">
+<optgroup label="Sport">
+<option>Piłka nożna</option>
+<option>Siatkówka</option>
+</optgroup>
+<optgroup label="Muzyka">
+<option>Rock</option>
+<option>Pop</option>
+</optgroup>
+</select>
+<h3>Dodatkowe informacje</h3>
+<p>Ocena aktywności (1-10):</p>
+<input type="number" name="aktywnosc" min="1" max="10" step="1">
+<p>Dodaj plik:
+<input type="file" name="plik"></p>
+<h3>Zainteresowania</h3>
+<label>
+<input type="checkbox" name="gry">
+Gry
+</label><br>
+<label>
+<input type="checkbox" name="filmy">
+Filmy
+</label><br>
+<label>
+<input type="checkbox" name="sport">
+Sport
+</label><br><br>
+<p>Nieaktywny przycisk:</p>
+<input type="button" value="Niedostępny" disabled>
+<br><br>
+<input type="submit" value="Wyślij">
+<input type="reset" value="Wyczyść">
+</form>
+</body>
+</html>
